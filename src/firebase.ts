@@ -21,15 +21,22 @@ import { SubcampChat } from "@/types/subcampChat"
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-export const firebaseConfig = {
-  apiKey: "AIzaSyAGDOLaayTJxdlYWGfCscQ3Bp4e4md7r_o",
-  authDomain: "huhu-sovellus.firebaseapp.com",
-  projectId: "huhu-sovellus",
-  storageBucket: "huhu-sovellus.appspot.com",
-  messagingSenderId: "21166179095",
-  appId: "1:21166179095:web:d0270d5f058e9b7f706d52",
-  measurementId: "G-D4BZB5VX6S",
-}
+const firebaseConfig = {
+
+  apiKey: "AIzaSyAc1u6WaBkZv-iUFuEFswPwCVUlmzLL7pw",
+
+  authDomain: "huhulocal-9d49d.firebaseapp.com",
+
+  projectId: "huhulocal-9d49d",
+
+  storageBucket: "huhulocal-9d49d.appspot.com",
+
+  messagingSenderId: "904432048374",
+
+  appId: "1:904432048374:web:ddd88757ced11aea0db4d7"
+
+};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
